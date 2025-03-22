@@ -1,0 +1,97 @@
+{
+	"category": "units",
+	"type": "Reconstructor",
+	"name": "Cheap Tetrative Reconstructor",
+	"description": "Upgrades inputted units to the fifth and final tier.",
+	"health": 5830,
+	"size": 9,
+	"liquidCapacity": 180,
+	"requirements": [
+		{
+			"item": "lead",
+			"amount": 4000
+		},
+		{
+			"item": "silicon",
+			"amount": 3000
+		},
+		{
+			"item": "thorium",
+			"amount": 1000
+		},
+		{
+			"item": "plastanium",
+			"amount": 600
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 600
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 800
+		}
+	],
+	"upgrades": [
+		[
+			"antumbra",
+			"eclipse"
+		],
+		[
+			"arkyid",
+			"toxopid"
+		],
+		[
+			"scepter",
+			"reign"
+		],
+		[
+			"sei",
+			"omura"
+		],
+		[
+			"quad",
+			"oct"
+		],
+		[
+			"vela",
+			"corvus"
+		],
+		[
+			"aegires",
+			"navanax"
+		]
+	],
+	"consumes": {
+		"items": {
+			"items": [
+				{
+					"item": "silicon",
+					"amount": 330
+				},
+				{
+					"item": "plastanium",
+					"amount": 200
+				},
+				{
+					"item": "surge-alloy",
+					"amount": 160
+				},
+				{
+					"item": "phase-fabric",
+					"amount": 110
+				}
+			]
+		},
+		"liquids": {
+			"liquids": [
+				{
+					"liquid": "cryofluid",
+					"amount": 0.7
+				}
+			]
+		},
+		"power": 25
+	},
+	"constructTime": 3600
+}

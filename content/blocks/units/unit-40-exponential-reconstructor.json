@@ -1,0 +1,93 @@
+{
+	"category": "units",
+	"type": "Reconstructor",
+	"name": "Cheap Exponential Reconstructor",
+	"description": "Upgrades inputted units to the fourth tier.",
+	"health": 3035,
+	"size": 7,
+	"liquidCapacity": 60,
+	"requirements": [
+		{
+			"item": "lead",
+			"amount": 2000
+		},
+		{
+			"item": "titanium",
+			"amount": 2000
+		},
+		{
+			"item": "thorium",
+			"amount": 750
+		},
+		{
+			"item": "silicon",
+			"amount": 1000
+		},
+		{
+			"item": "plastanium",
+			"amount": 450
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 600
+		}
+	],
+	"upgrades": [
+		[
+			"zenith",
+			"antumbra"
+		],
+		[
+			"spiroct",
+			"arkyid"
+		],
+		[
+			"fortress",
+			"scepter"
+		],
+		[
+			"bryde",
+			"sei"
+		],
+		[
+			"mega",
+			"quad"
+		],
+		[
+			"quasar",
+			"vela"
+		],
+		[
+			"cyerce",
+			"aegires"
+		]
+	],
+	"consumes": {
+		"items": {
+			"items": [
+				{
+					"item": "silicon",
+					"amount": 280
+				},
+				{
+					"item": "titanium",
+					"amount": 250
+				},
+				{
+					"item": "plastanium",
+					"amount": 210
+				}
+			]
+		},
+		"liquids": {
+			"liquids": [
+				{
+					"liquid": "cryofluid",
+					"amount": 0.3
+				}
+			]
+		},
+		"power": 13
+	},
+	"constructTime": 2700
+}
