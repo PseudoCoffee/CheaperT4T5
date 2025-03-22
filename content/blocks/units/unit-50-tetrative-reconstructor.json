@@ -93,5 +93,6 @@
 		},
 		"power": 25
 	},
-	"constructTime": 3600
+	"constructTime": 3600,
+    "research": "tetrative-reconstructor"
 }

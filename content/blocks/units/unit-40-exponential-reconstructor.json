@@ -89,5 +89,6 @@
 		},
 		"power": 13
 	},
-	"constructTime": 2700
+	"constructTime": 2700,
+    "research": "exponential-reconstructor"
 }
